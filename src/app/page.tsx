@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/toggle-mode";
+import { FloatingDockDemo } from "@/components/float-dock";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
 
       <Button className="ml-4">Click Here</Button>
+      <FloatingDockDemo />
     </>
   );
 }
