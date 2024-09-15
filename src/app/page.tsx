@@ -3,6 +3,7 @@ import "./globals.css";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/toggle-mode";
 import { FloatingDockDemo } from "@/components/float-dock";
+import { BackgroundBeamsDemo } from "@/components/hero";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <Button className="ml-4">Click Here</Button>
       <FloatingDockDemo />
+      <BackgroundBeamsDemo />
     </>
   );
 }
